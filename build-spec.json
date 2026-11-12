@@ -84,7 +84,7 @@
       "archetype": "about",
       "sections": [
         "nav",
-        "about-hero",
+        "intro",
         "my-journey",
         "qualifications",
         "cta-mid",
@@ -160,7 +160,7 @@
     {
       "id": "home-portrait",
       "page": "index",
-      "slot": "images/stephen.jpg",
+      "slot": "images/stephen-portrait.jpg",
       "source": "client",
       "intent": "Stephen's own portrait, original file"
     },
@@ -202,7 +202,7 @@
     {
       "id": "counselling-portrait",
       "page": "counselling-psychotherapy",
-      "slot": "images/stephen.jpg",
+      "slot": "images/stephen-portrait.jpg",
       "source": "client",
       "intent": "Stephen's own portrait, original file"
     },
@@ -251,7 +251,7 @@
     {
       "id": "about-portrait",
       "page": "about",
-      "slot": "images/stephen.jpg",
+      "slot": "images/stephen-portrait.jpg",
       "source": "client",
       "intent": "Stephen's own portrait, original file"
     },
