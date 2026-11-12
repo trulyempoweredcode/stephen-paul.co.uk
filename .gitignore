@@ -1,0 +1,23 @@
+# Local working files, not part of the deployed site (world-readable on GitHub Pages)
+shots/
+reference-demo/
+existing-site/
+images/raw/
+images/portrait-test/
+BUILD-DECISIONS.md
+client-brief.md
+client-preferences.json
+site-inventory.json
+build-notes.md
+images.json
+content-checklist.html
+contact-sheet-*.png
+portrait-sheet.png
+critique-log.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+build-scripts/
+reference-original/

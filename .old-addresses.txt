@@ -1,0 +1,16 @@
+# Every address this site has had. The weekly old-address guard (Ai-Editor scripts/address_guard.py)
+# checks each one still works and forwards it if not. Add lines freely; never remove one.
+# archive: pending
+/
+/1/Home.html/
+/2/Counselling-&-Psychotherapy.html/
+/3/Coaching.html/
+/4/Training.html/
+/5/Supervision.html/
+/6/About-Me.html/
+/7/Contact-Me.html/
+/7/Contact.html/
+/8/Links-&-Resources.html/
+/9/Publications.html/
+/forgotpass.php/
+/login.php/

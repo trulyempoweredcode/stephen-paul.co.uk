@@ -1,0 +1,61 @@
+/* =============================================
+   THEME: Trusty Blue (palette) + Classic Humanist (fonts)
+   Stephen Paul: counselling, psychotherapy, coaching, supervision and training.
+   Palette chosen from his own Lake District photographs: lake blue, slate,
+   muted fell green and warm sunrise. Reference demo: demo-psychotherapist.
+   ============================================= */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+/* --- Theme Variables --- */
+:root {
+  /* Colour palette: trusty-blue */
+  --color-primary: #3B6FA0;
+  --color-primary-light: #5A8FBF;
+  --color-primary-dark: #2A5178;
+  --color-secondary: #D4956A;
+  --color-secondary-light: #E2B08A;
+  --color-secondary-dark: #A06B3E;
+  --color-accent: #6B8E7B;
+  --color-accent-light: #8FB3A0;
+
+  --color-bg: #F8FAFB;
+  --color-bg-alt: #ECF1F4;
+  --color-bg-dark: #1E3A52;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F2F6F8;
+
+  --color-text: #2D3748;
+  --color-text-light: #64748B;
+  --color-text-inverse: #F8FAFB;
+  --color-text-heading: #1E3A52;
+
+  --color-border: #D4DCE4;
+  --color-border-light: #E8EDF2;
+
+  --color-success: #3B8F6F;
+  --color-error: #C45B5B;
+
+  /* Typography: classic-humanist */
+  --font-heading: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Editorial type scale (house standard, 01-11-2026) */
+  --text-h1-desktop: clamp(2.5rem, 3.8vw, 3.25rem);
+  --text-h2-desktop: clamp(1.9rem, 2.6vw, 2.375rem);
+
+  /* Warm sunrise CTA ink: dark text on the tan accent keeps 4.5:1 */
+  --btn-accent-text: #1E3A52;
+  --btn-accent-hover-text: #1E3A52;
+
+  /* Second and third calm tints from his photographs: warm sunrise sand, soft fell sage */
+  --band-2-bg: #F4EAE0;
+  --band-2-text: #1E3A52;
+  --band-3-bg: #E4ECE6;
+  --band-3-text: #1E3A52;
+
+  /* Phones: tap-to-call under the name, tagline dropped below 480px */
+  --nav-call-phone-display: flex;
+  --nav-title-phone-display: none;
+}

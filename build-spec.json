@@ -1,0 +1,312 @@
+{
+  "client": "stephen-paul.co.uk",
+  "platform": "flat",
+  "reference": {
+    "kind": "chosen",
+    "demo": "demo-psychotherapist",
+    "why": "Stephen gave no visual reference, and demo-psychotherapist is the closest register of the nine for a senior, warm, academic psychotherapist and author: a refined Cormorant Garamond serif over a calm full-width photographic hero, a portrait intro, a pull quote, service cards, testimonials and a quiet CTA band. Deviations decided before building: the palette is trusty-blue instead of forest-and-cream because his own Lake District photographs are lake blue, slate, muted fell green and warm sunrise, and trusty-blue carries exactly those; the nav is two-tier because his site has eight menu items and the brand row carries his phone; the home page adds an experience figures band (stats--warm) because his Welcome page leads with those figures, and the service cards are photo cards using his own seven 300px Lake District photographs, which suit a card's size; the demo's single multi-service page becomes four sibling service pages (his own information architecture), each a page-header, a split with a calm Lake District photograph, a component band for his lists, a testimonial band and a CTA band; testimonials carry no star ratings because he never gave any; the quote is his own (the Dalai Lama line from his Links page). After the blind critic (12-11-2026): home shows three photo cards plus a numbered service-list for the other three offers; a warm sand band (band--2) and a soft sage band (band--3) give the second and third calm tints; inner page headers carry a calm Lake District photograph (page-header--image) because the home hero is an image hero; his seven 300px slider photos are too small for any slot on the new layout, so they serve as style references for the generated images instead."
+  },
+  "palette_slug": "trusty-blue",
+  "pairing_slug": "classic-humanist",
+  "hero_type": "hero hero--fullwidth hero--entrance",
+  "nav_style": "two-tier",
+  "pages": [
+    {
+      "slug": "index",
+      "archetype": "home",
+      "sections": [
+        "nav",
+        "hero",
+        "intro",
+        "experience",
+        "services-overview",
+        "blockquote",
+        "testimonials",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "counselling-psychotherapy",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "approach",
+        "who-i-work-with",
+        "testimonial",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "coaching",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "approach",
+        "sessions",
+        "testimonial",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "supervision",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "approach",
+        "consultancy",
+        "testimonial",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "training",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "approach",
+        "expertise",
+        "clients",
+        "testimonials",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "about",
+      "archetype": "about",
+      "sections": [
+        "nav",
+        "about-hero",
+        "my-journey",
+        "qualifications",
+        "cta-mid",
+        "relational-approach",
+        "beyond-work",
+        "testimonial",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "publications",
+      "archetype": "about",
+      "sections": [
+        "nav",
+        "page-header",
+        "books",
+        "publications",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "contact",
+      "archetype": "contact",
+      "sections": [
+        "nav",
+        "page-header",
+        "contact-form",
+        "map",
+        "footer"
+      ]
+    },
+    {
+      "slug": "privacy",
+      "archetype": "legal",
+      "sections": [
+        "nav",
+        "page-header",
+        "privacy-content",
+        "footer"
+      ]
+    },
+    {
+      "slug": "cookies-policy",
+      "archetype": "legal",
+      "sections": [
+        "nav",
+        "page-header",
+        "cookies-content",
+        "footer"
+      ]
+    },
+    {
+      "slug": "404",
+      "archetype": "error",
+      "sections": [
+        "nav",
+        "404",
+        "404-message",
+        "footer"
+      ]
+    }
+  ],
+  "image_slots": [
+    {
+      "id": "home-hero",
+      "page": "index",
+      "slot": "images/hero-bg.jpg",
+      "source": "generate",
+      "intent": "still Lake District lake at first light, calm upper frame for text"
+    },
+    {
+      "id": "home-portrait",
+      "page": "index",
+      "slot": "images/stephen.jpg",
+      "source": "client",
+      "intent": "Stephen's own portrait, original file"
+    },
+    {
+      "id": "card-counselling",
+      "page": "index",
+      "slot": "images/card-counselling.jpg",
+      "source": "generate",
+      "intent": "wooden jetty into a calm lake"
+    },
+    {
+      "id": "card-coaching",
+      "page": "index",
+      "slot": "images/card-coaching.jpg",
+      "source": "generate",
+      "intent": "summit cairn above blue fells"
+    },
+    {
+      "id": "card-supervision",
+      "page": "index",
+      "slot": "images/card-supervision.jpg",
+      "source": "generate",
+      "intent": "two oak trees side by side"
+    },
+    {
+      "id": "counselling-banner",
+      "page": "counselling-psychotherapy",
+      "slot": "images/counselling-banner.jpg",
+      "source": "generate",
+      "intent": "wide calm lake from a wooded shore"
+    },
+    {
+      "id": "counselling-split",
+      "page": "counselling-psychotherapy",
+      "slot": "images/counselling-split.jpg",
+      "source": "generate",
+      "intent": "quiet lakeshore, leaning tree, boulder"
+    },
+    {
+      "id": "counselling-portrait",
+      "page": "counselling-psychotherapy",
+      "slot": "images/stephen.jpg",
+      "source": "client",
+      "intent": "Stephen's own portrait, original file"
+    },
+    {
+      "id": "coaching-banner",
+      "page": "coaching",
+      "slot": "images/coaching-banner.jpg",
+      "source": "generate",
+      "intent": "wide green fells under open sky"
+    },
+    {
+      "id": "coaching-split",
+      "page": "coaching",
+      "slot": "images/coaching-split.jpg",
+      "source": "generate",
+      "intent": "stony fell path to an open ridge"
+    },
+    {
+      "id": "supervision-banner",
+      "page": "supervision",
+      "slot": "images/supervision-banner.jpg",
+      "source": "generate",
+      "intent": "valley at sunrise with trees"
+    },
+    {
+      "id": "supervision-split",
+      "page": "supervision",
+      "slot": "images/supervision-split.jpg",
+      "source": "generate",
+      "intent": "low sun through trees above a hazy valley"
+    },
+    {
+      "id": "training-banner",
+      "page": "training",
+      "slot": "images/training-banner.jpg",
+      "source": "generate",
+      "intent": "evening valley with a winding beck"
+    },
+    {
+      "id": "training-split",
+      "page": "training",
+      "slot": "images/training-split.jpg",
+      "source": "generate",
+      "intent": "dry stone wall under a mackerel sky"
+    },
+    {
+      "id": "about-portrait",
+      "page": "about",
+      "slot": "images/stephen.jpg",
+      "source": "client",
+      "intent": "Stephen's own portrait, original file"
+    },
+    {
+      "id": "about-split",
+      "page": "about",
+      "slot": "images/about-split.jpg",
+      "source": "generate",
+      "intent": "still lake at dusk, stones in the shallows"
+    },
+    {
+      "id": "publications-banner",
+      "page": "publications",
+      "slot": "images/publications-banner.jpg",
+      "source": "generate",
+      "intent": "misty blue lake at dawn"
+    },
+    {
+      "id": "publications-photo",
+      "page": "publications",
+      "slot": "images/wellmetsteve.jpg",
+      "source": "client",
+      "intent": "Stephen holding The Therapeutic Relationship, original file at native size"
+    },
+    {
+      "id": "contact-banner",
+      "page": "contact",
+      "slot": "images/contact-banner.jpg",
+      "source": "generate",
+      "intent": "stone footbridge over a clear beck"
+    }
+  ],
+  "repeating_archetype": "service-detail",
+  "slice_approved": "2026-11-12T18:03:16Z",
+  "source_site": "https://www.stephen-paul.co.uk/",
+  "built_site": "https://trulyempoweredcode.github.io/stephen-paul.co.uk/",
+  "source_capture": "existing-site/capture",
+  "slice_approved_by": "unattended 2026-11-12T18:03:16Z: Rick said make all decisions; slice passed validate_site, verify_spec and a blind critic (two rounds), no human review",
+  "source_map": {
+    "": "index",
+    "counselling-psychotherapy": "counselling-psychotherapy",
+    "coaching": "coaching",
+    "training": "training",
+    "supervision": "supervision",
+    "about-me": "about",
+    "contact-me": "contact",
+    "publications": "publications",
+    "links-resources": "DROPPED: stale links (Leeds Metropolitan University is now Leeds Beckett) and a 'Photo here' placeholder; its Dalai Lama quote is on the home page and PCCS Books is linked from Publications"
+  },
+  "content_dropped": {
+    "training": {
+      "Upcoming Training programme": "dated 2013/14 course notice removed on Rick's decision (BUILD-DECISIONS.md)"
+    },
+    "about-me": {
+      "I endeavour to facilitate": "the sentence is unfinished on his site; the build ends it at 'to the fore' and it is flagged for Stephen"
+    }
+  }
+}
