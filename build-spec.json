@@ -303,10 +303,26 @@
   },
   "content_dropped": {
     "training": {
-      "Upcoming Training programme": "dated 2013/14 course notice removed on Rick's decision (BUILD-DECISIONS.md)"
+      "Upcoming Training programme": "dated 2013/14 course notice removed on Rick's decision (BUILD-DECISIONS.md)",
+      "Certficated": "spelling fixed: Certificated",
+      "Continuting": "spelling fixed: Continuing",
+      "Indivdiual": "spelling fixed: Individual",
+      "Barrnardo": "spelling fixed: Barnardo's",
+      "training-as-a-coach": "link to the dated 2013/14 course removed with its notice"
     },
     "about-me": {
       "I endeavour to facilitate": "the sentence is unfinished on his site; the build ends it at 'to the fore' and it is flagged for Stephen"
+    },
+    "contact-me": {
+      "07504237614": "phone number written as 07504 237614 (spacing only)",
+      "Enter Verification": "the old form's captcha label; the new form uses hidden anti-spam fields instead"
+    },
+    "publications": {
+      "Book Chapter- Creating": "list entry laid out as title plus detail; wording kept",
+      "2104": "typo fixed: October 2014"
     }
+  },
+  "orphan_ok": {
+    "stephen-paul.co.uk": "the home page: every page links to it as ./ (brand, nav Home and footer), which the check's pattern does not read on a project-path preview"
   }
 }
