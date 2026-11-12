@@ -289,7 +289,7 @@
   "source_site": "https://www.stephen-paul.co.uk/",
   "built_site": "https://trulyempoweredcode.github.io/stephen-paul.co.uk/",
   "source_capture": "existing-site/capture",
-  "slice_approved_by": "unattended 2026-11-12T18:03:16Z: Rick said make all decisions; slice passed validate_site, verify_spec and a blind critic (two rounds), no human review",
+  "slice_approved_by": "unattended 2026-11-12T18:03:16Z (owner delegated all decisions; slice passed validate_site, verify_spec and two blind critic rounds)",
   "source_map": {
     "": "index",
     "counselling-psychotherapy": "counselling-psychotherapy",
